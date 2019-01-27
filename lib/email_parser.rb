@@ -11,7 +11,7 @@ class EmailParser
 
   def parse
     email_list = []
-    email_list << email.strip
+    email_list << email.join(",")
     email_list.uniq
 end
 end
