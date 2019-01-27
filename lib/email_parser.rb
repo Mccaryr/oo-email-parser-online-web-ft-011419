@@ -11,6 +11,6 @@ class EmailParser
 
   def parse
     email_list = []
-    email_list << email.uniq
+    email_list << @email.uniq
 end
 end
