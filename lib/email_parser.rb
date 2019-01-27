@@ -11,7 +11,7 @@ class EmailParser
 
   def parse
     email_list = []
-    email_list << email.gsub(/\s+/, "")
+    email_list << email.split(/ /)
     email_list.uniq
 end
 end
