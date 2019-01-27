@@ -9,7 +9,7 @@ class EmailParser
     @email = email
   end
 
-  def parse(email)
+  def parse
     email_list = []
     email_list << email.uniq
 end
