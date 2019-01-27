@@ -13,3 +13,4 @@ class EmailParser
     email_list = []
     email_list << email.uniq
 end
+end
