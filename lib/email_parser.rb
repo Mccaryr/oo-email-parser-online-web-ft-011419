@@ -6,11 +6,10 @@ class EmailParser
   attr_accessor :email
 
   def initialize(email)
-    @email = email 
+    @email = email
   end
 
   def parse(email)
     email_list = []
-    email_list << email.uniq 
+    email_list << email.uniq
 end
-
