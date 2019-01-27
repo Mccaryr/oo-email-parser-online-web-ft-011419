@@ -10,8 +10,8 @@ class EmailParser
   end
 
   def parse
-    email_list = []
-    email_list << email.split(/ /)
-    email_list.uniq
+    # email_list = []
+     email.split(/ /).uniq
+    
 end
 end
